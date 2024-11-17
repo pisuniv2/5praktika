@@ -1,0 +1,20 @@
+[33mcommit 601421ca74052b8908b641d1c9faa790872dd669[m
+Author: Nikita Kholchev <nikitabel66@mail.ru>
+Date:   Sun Nov 17 16:52:20 2024 +0500
+
+    Р”РѕР±Р°РІР»РµРЅ РІС‹РІРѕРґ СЃСѓРјРјС‹ РІРІРµРґС‘РЅРЅС‹С… С‡РёСЃРµР»
+
+[1mdiff --git a/main.cpp b/main.cpp[m
+[1mindex 19c34a3..4d7576a 100644[m
+[1m--- a/main.cpp[m
+[1m+++ b/main.cpp[m
+[36m@@ -16,5 +16,9 @@[m [mint main() {[m
+     // Вывод введённых чисел[m
+     cout << "Вы ввели числа: " << num1 << " и " << num2 << endl;[m
+ [m
+[32m+[m[32m    // Вычисляем и выводим сумму[m[41m[m
+[32m+[m[32m    int sum = num1 + num2;[m[41m[m
+[32m+[m[32m    cout << "Сумма введённых чисел: " << sum << endl;[m[41m[m
+[32m+[m[41m[m
+     return 0;[m
+ }[m

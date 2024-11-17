@@ -1,0 +1,36 @@
+[33mcommit a17b3b093acc61c40af07d352a68fb4e32ee6ada[m
+Author: Nikita Kholchev <nikitabel66@mail.ru>
+Date:   Sun Nov 17 16:51:19 2024 +0500
+
+    Р”РѕР±Р°РІР»РµРЅ РІРІРѕРґ РґРІСѓС… С†РµР»С‹С… С‡РёСЃРµР» СЃ РїСЂРёРіР»Р°С€РµРЅРёРµРј
+
+[1mdiff --git a/main.cpp b/main.cpp[m
+[1mindex 443bccb..19c34a3 100644[m
+[1m--- a/main.cpp[m
+[1m+++ b/main.cpp[m
+[36m@@ -1,5 +1,20 @@[m
+[31m-#include <iostream>[m
+[31m-[m
+[31m-using namespace std;[m
+[31m-[m
+[31m-int main()[m
+[32m+[m[32m#include <iostream>[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32musing namespace std;[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32mint main() {[m[41m[m
+[32m+[m[32m    int num1, num2; // Объявляем две переменные для ввода чисел[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m    // Приглашение к вводу первого числа[m[41m[m
+[32m+[m[32m    cout << "Введите первое целое число: ";[m[41m[m
+[32m+[m[32m    cin >> num1;[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m    // Приглашение к вводу второго числа[m[41m[m
+[32m+[m[32m    cout << "Введите второе целое число: ";[m[41m[m
+[32m+[m[32m    cin >> num2;[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m    // Вывод введённых чисел[m[41m[m
+[32m+[m[32m    cout << "Вы ввели числа: " << num1 << " и " << num2 << endl;[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m    return 0;[m[41m[m
+[32m+[m[32m}[m[41m[m
