@@ -1,3 +1,4 @@
+// Эта программа является учебной. Создатель Холчев Никита
 #include <iostream>
 
 using namespace std;
